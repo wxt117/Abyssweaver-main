@@ -1,0 +1,74 @@
+﻿[h1]Abyssweaver: A VPE Expansion[/h1]
+[i]A VPE path focused on mutation, corruption, summoning, and anomaly-scale battlefield control.[/i]
+
+[hr][/hr]
+[h2]Skill Icons[/h2]
+[b]Aberrant Reconstruction[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_aberrant_reconstruction.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_aberrant_reconstruction.png?v=1c87cdc[/img][/url]
+
+[b]Delusion Backflow[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_delusion_backflow.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_delusion_backflow.png?v=1c87cdc[/img][/url]
+
+[b]Passive: Distorted Metabolism[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_passive_distorted_metabolism.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_passive_distorted_metabolism.png?v=1c87cdc[/img][/url]
+
+[b]Corpse Threads[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_corpse_threads.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_corpse_threads.png?v=1c87cdc[/img][/url]
+
+[b]Scream of Despair[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_scream_of_despair.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_scream_of_despair.png?v=1c87cdc[/img][/url]
+
+[b]Rend the Veil[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_rend_the_veil.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_rend_the_veil.png?v=1c87cdc[/img][/url]
+
+[b]Passive: Embrace Gloom[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_passive_embrace_gloom.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_passive_embrace_gloom.png?v=1c87cdc[/img][/url]
+
+[b]Mind Siphon[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_mind_siphon.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_mind_siphon.png?v=1c87cdc[/img][/url]
+
+[b]Flesh Molding[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_flesh_molding.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_flesh_molding.png?v=1c87cdc[/img][/url]
+
+[b]Engulfing Unlight[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_engulfing_unlight.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_engulfing_unlight.png?v=1c87cdc[/img][/url]
+
+[b]Global Lobotomy[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_global_lobotomy.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_global_lobotomy.png?v=1c87cdc[/img][/url]
+
+[b]Passive: Cognitive Hazard[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_passive_cognitive_hazard.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_passive_cognitive_hazard.png?v=1c87cdc[/img][/url]
+
+[b]Void Command[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_void_command.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_void_command.png?v=1c87cdc[/img][/url]
+
+[b]Domain of Silence[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_domain_of_silence.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_domain_of_silence.png?v=1c87cdc[/img][/url]
+
+[b]Void Ascension[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_void_ascension.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_void_ascension.png?v=1c87cdc[/img][/url]
+
+[b]Abyssal Birth[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_abyssal_birth.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_abyssal_birth.png?v=1c87cdc[/img][/url]
+
+[b]Dark Beacon[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/skill_dark_beacon.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/skill_dark_beacon.png?v=1c87cdc[/img][/url]
+
+[hr][/hr]
+[h2]New Aberrations[/h2]
+[b]Grafted Aberration[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/entity_grafted_aberration.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/entity_grafted_aberration.png?v=1c87cdc[/img][/url]
+
+[b]Wailing Flesh-Mound (Open)[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/entity_wailing_flesh_mound_open.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/entity_wailing_flesh_mound_open.png?v=1c87cdc[/img][/url]
+
+[b]Wailing Flesh-Mound (Closed)[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/entity_wailing_flesh_mound_closed.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/entity_wailing_flesh_mound_closed.png?v=1c87cdc[/img][/url]
+
+[b]Lord of Legion[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/entity_lord_of_legion.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/entity_lord_of_legion.png?v=1c87cdc[/img][/url]
+
+[b]Abyssal Atrocity[/b]
+[url=https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/entity_abyssal_atrocity.png][img]https://cdn.jsdelivr.net/gh/wxt117/Abyssweaver-main@1c87cdc/workshop_bbcode_assets/thumb/entity_abyssal_atrocity.png?v=1c87cdc[/img][/url]
+
+
