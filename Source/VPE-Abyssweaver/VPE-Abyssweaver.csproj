@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>VPE-Abyssweaver</AssemblyName>
+    <RootNamespace>VPE_Abyssweaver</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <OutputPath>..\..\1.6\Core\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RimWorldDir Condition="'$(RimWorldDir)' == '' and '$(RIMWORLD_DIR)' != ''">$(RIMWORLD_DIR)</RimWorldDir>
+    <RimWorldDir Condition="'$(RimWorldDir)' == '' and Exists('D:\\SteamLibrary\\steamapps\\common\\RimWorld')">D:\SteamLibrary\steamapps\common\RimWorld</RimWorldDir>
+    <RimWorldDir Condition="'$(RimWorldDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldDir>
+    <SteamWorkshopDir Condition="'$(SteamWorkshopDir)' == '' and Exists('D:\\SteamLibrary\\steamapps\\workshop\\content\\294100')">D:\SteamLibrary\steamapps\workshop\content\294100</SteamWorkshopDir>
+    <SteamWorkshopDir Condition="'$(SteamWorkshopDir)' == ''">C:\Program Files (x86)\Steam\steamapps\workshop\content\294100</SteamWorkshopDir>
+    <HarmonyDir Condition="'$(HarmonyDir)' == '' and Exists('$(SteamWorkshopDir)\\2009463077\\Current\\Assemblies')">$(SteamWorkshopDir)\2009463077\Current\Assemblies</HarmonyDir>
+    <HarmonyDir Condition="'$(HarmonyDir)' == '' and Exists('$(SteamWorkshopDir)\\2009463077\\1.6\\Assemblies')">$(SteamWorkshopDir)\2009463077\1.6\Assemblies</HarmonyDir>
+    <VEFDir Condition="'$(VEFDir)' == ''">$(SteamWorkshopDir)\2023507013\1.6\Assemblies</VEFDir>
+    <VPEDir Condition="'$(VPEDir)' == ''">$(SteamWorkshopDir)\2842502659\1.6\Assemblies</VPEDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldDir)\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(RimWorldDir)\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldDir)\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VEF">
+      <HintPath>$(VEFDir)\VEF.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VanillaPsycastsExpanded">
+      <HintPath>$(VPEDir)\VanillaPsycastsExpanded.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+
+  <Target Name="PruneAssemblies" AfterTargets="Build">
+    <ItemGroup>
+      <_AllBuildArtifacts Include="$(OutputPath)*.dll;$(OutputPath)*.pdb;$(OutputPath)*.xml" />
+      <_KeepBuildArtifacts Include="$(OutputPath)$(AssemblyName).dll" />
+      <_KeepBuildArtifacts Include="$(OutputPath)$(AssemblyName).pdb" Condition="Exists('$(OutputPath)$(AssemblyName).pdb')" />
+      <_DeleteBuildArtifacts Include="@(_AllBuildArtifacts)" Exclude="@(_KeepBuildArtifacts)" />
+    </ItemGroup>
+    <Delete Files="@(_DeleteBuildArtifacts)" />
+  </Target>
+</Project>

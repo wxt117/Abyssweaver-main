@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VPEMYX_FleshHealing.label>Aberrant Reconstruction</VPEMYX_FleshHealing.label>
+  <VPEMYX_FleshHealing.description>The void is never stingy with its "mercy," but that mercy is horrifying. Channel abyssal power to instantly heal normal injuries. If the target has missing organs or limbs, the missing parts are forcibly replaced with matching abyssal grafts.</VPEMYX_FleshHealing.description>
+
+  <VPEMYX_DelusionBackflow.label>Delusion Backflow</VPEMYX_DelusionBackflow.label>
+  <VPEMYX_DelusionBackflow.description>Flood a target's mind with void whispers. Enemies are forced into severe mental breaks; allies gain brief pain suppression and mobility, but suffer a major mood penalty.</VPEMYX_DelusionBackflow.description>
+
+  <VPEMYX_DistortedMetabolismActivate.label>Distorted Metabolism</VPEMYX_DistortedMetabolismActivate.label>
+  <VPEMYX_DistortedMetabolismActivate.description>Passive toggle. While active, injuries consume a small amount of entropy to trigger rapid regeneration, coagulation, and scar reduction. Stops when entropy overloads.</VPEMYX_DistortedMetabolismActivate.description>
+
+  <VPEMYX_CorpseThreads.label>Corpse Threads</VPEMYX_CorpseThreads.label>
+  <VPEMYX_CorpseThreads.description>Pierce death-nerves and reanimate all corpses in an area as shamblers. They return to the void after 90 seconds. Unlock "Flesh Frenzy" after reviving 100 corpses in total.</VPEMYX_CorpseThreads.description>
+
+  <VPEMYX_PsychicScream.label>Scream of Despair</VPEMYX_PsychicScream.label>
+  <VPEMYX_PsychicScream.description>Echo the endless howls of the abyss and rip apart enemy sanity. Releases a wide psychic shockwave centered on the caster, applying a massive mood penalty to hostile targets.</VPEMYX_PsychicScream.description>
+
+  <VPEMYX_SummonEntity.label>Rend the Veil</VPEMYX_SummonEntity.label>
+  <VPEMYX_SummonEntity.description>Tear open reality's veil so lesser horrors can slip in. Summons 5 allied low-tier anomaly entities for 90 seconds before they return to the void.</VPEMYX_SummonEntity.description>
+
+  <VPEMYX_EmbraceGloomActivate.label>Embrace Gloom</VPEMYX_EmbraceGloomActivate.label>
+  <VPEMYX_EmbraceGloomActivate.description>Passive toggle. Attune to absolute darkness. Immunity to sanity penalties from entities, darkness, and anomalous weather. During Unnatural Darkness, psyfocus recovery is greatly increased.</VPEMYX_EmbraceGloomActivate.description>
+
+  <VPEMYX_CognitiveHazardActivate.label>Cognitive Hazard</VPEMYX_CognitiveHazardActivate.label>
+  <VPEMYX_CognitiveHazardActivate.description>Passive toggle. The caster becomes a walking memetic contamination source. Enemies within a large radius trying to target the caster lose consciousness and suffer severe mood collapse.</VPEMYX_CognitiveHazardActivate.description>
+
+  <VPEMYX_EngulfingUnlight.label>Engulfing Unlight</VPEMYX_EngulfingUnlight.label>
+  <VPEMYX_EngulfingUnlight.description>Force map-wide anomalous darkness for half a day. Noctols are summoned in large numbers to hunt hostiles. The caster and allies gain Void Sight, ignoring Noctol hostility and fighting effectively in the dark.</VPEMYX_EngulfingUnlight.description>
+
+  <VPEMYX_GlobalLobotomy.label>Global Lobotomy</VPEMYX_GlobalLobotomy.label>
+  <VPEMYX_GlobalLobotomy.description>Broadcast void truth across the entire map. All creatures except the caster are injected with incomprehensible terror-knowledge and forced into extreme mental collapse.</VPEMYX_GlobalLobotomy.description>
+
+  <VPEMYX_MindSiphon.label>Mind Siphon</VPEMYX_MindSiphon.label>
+  <VPEMYX_MindSiphon.description>Drive a psychic tendril into a downed enemy's skull to steal skill and potential. Permanently steals 1 random skill level and transfers it to the caster, with a chance to steal passion as well. If the target has a psylink, grants extra psychic sensitivity. Target consciousness is permanently reduced to 0.</VPEMYX_MindSiphon.description>
+
+  <VPEMYX_FleshMolding.label>Flesh Molding</VPEMYX_FleshMolding.label>
+  <VPEMYX_FleshMolding.description>Shatter reality rules, consume fresh corpses and downed hostiles in an area, and forge them into a loyal aberration. At 5/15/30 materials, creates Grafted Aberration, Wailing Flesh-Mound, or Lord of Legion respectively.</VPEMYX_FleshMolding.description>
+
+  <VPEMYX_VoidCommand.label>Void Command</VPEMYX_VoidCommand.label>
+  <VPEMYX_VoidCommand.description>Issue a command with higher cosmic law, forcing advanced abyssal predators to cross dimensions and serve. Summons 1 high-tier and 2 low-tier entities for 90 seconds.</VPEMYX_VoidCommand.description>
+
+  <VPEMYX_VoidAscension.label>Void Ascension</VPEMYX_VoidAscension.label>
+  <VPEMYX_VoidAscension.description>Irreversible transformation. The caster channels ultimate void power through the body, enters an agonizing mutation coma, and abandons humanity to become a Void Avatar.</VPEMYX_VoidAscension.description>
+
+  <VPEMYX_DomainOfSilence.label>Domain of Silence</VPEMYX_DomainOfSilence.label>
+  <VPEMYX_DomainOfSilence.description>Temporarily strips the whole map from reality. Hostiles suffer persistent brain withering toward death; technological guns, mech turrets, and explosives are suppressed inside the domain. This is a maintained channel: the caster must stand still and entropy cost ramps up per second until automatic collapse above 80%.</VPEMYX_DomainOfSilence.description>
+
+  <VPEMYX_AbyssalBirth.label>Abyssal Birth</VPEMYX_AbyssalBirth.label>
+  <VPEMYX_AbyssalBirth.description>Void infiltration reaches critical mass. Sacrifice 7 allied Lords of Legion on the map, erase them completely, and summon a permanent apex star-born pseudo-god near the caster: Abyssal Atrocity.</VPEMYX_AbyssalBirth.description>
+
+  <VPEMYX_DarkBeacon.label>Dark Beacon</VPEMYX_DarkBeacon.label>
+  <VPEMYX_DarkBeacon.description>Turn the body into a permanent anchor between reality and the abyss. While active, a rift opens and every 5 seconds releases 1 high-tier and 4 low-tier entities with no cap. Cast again to close the rift and forcibly banish all entities summoned by this skill. The caster must keep channeling in place.</VPEMYX_DarkBeacon.description>
+</LanguageData>

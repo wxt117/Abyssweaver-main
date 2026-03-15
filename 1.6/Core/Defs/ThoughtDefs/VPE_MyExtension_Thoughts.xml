@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>VPEMYX_PsychicScreamThought</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>scream of despair</label>
+        <description>The abyssal scream shattered my mental defenses.</description>
+        <baseMoodEffect>-100</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>VPEMYX_DelusionBackflowThought</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.35</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>void delusion overload</label>
+        <description>The void's whispers are drilling through my thoughts.</description>
+        <baseMoodEffect>-35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>VPEMYX_CognitiveHazardThought</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.18</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>cognitive hazard exposure</label>
+        <description>Trying to focus on that psycaster made my mind split with screaming noise.</description>
+        <baseMoodEffect>-45</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>VPEMYX_GlobalLobotomyThought</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.25</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>global lobotomy shock</label>
+        <description>The void's truth was hammered directly into my skull.</description>
+        <baseMoodEffect>-80</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>VPEMYX_WailingAuraThought</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.15</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>wailing resonance</label>
+        <description>The screaming flesh-field is crushing my nerves.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>VPEMYX_LegionDreadThought</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>legion dread pressure</label>
+        <description>The towering aberration's presence is crushing my mind and nerves.</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

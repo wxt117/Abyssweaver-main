@@ -1,0 +1,31 @@
+<ModMetaData>
+  <name>Abyssweaver:A VPE Expansion</name>
+  <author>WuXT</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modVersion>1.0.0</modVersion>
+  <packageId>wuxt.vpe.abyssweaver</packageId>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Anomaly</packageId>
+      <displayName>Anomaly</displayName>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>VanillaExpanded.VPsycastsE</packageId>
+      <displayName>Vanilla Psycasts Expanded</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>VanillaExpanded.VPsycastsE</li>
+  </loadAfter>
+  <description>A custom Vanilla Psycasts Expanded path focused on aberrant flesh, void corruption, and anomaly-scale summons.</description>
+</ModMetaData>

@@ -1,0 +1,14 @@
+﻿1) Upload all PNG files in this folder to an external host that supports direct image links:
+   - Recommended: GitHub repository + raw links, or Imgur direct image links.
+
+2) Copy WORKSHOP_BBCODE_TEMPLATE.txt into Steam Workshop description.
+
+3) Replace every {BASE_URL} with your real base URL.
+   Example:
+   https://raw.githubusercontent.com/<user>/<repo>/main/workshop_bbcode_assets
+
+4) Save, then refresh your Workshop page to verify images render.
+
+Important:
+- Steam local "Add/Edit Images" does not reliably provide reusable direct URLs for [img] embeds.
+- [img] requires a public direct URL to the image file (.png/.jpg).

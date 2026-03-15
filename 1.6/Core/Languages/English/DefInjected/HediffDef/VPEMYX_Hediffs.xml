@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VPEMYX_AbyssweaverOrgan.label>Abyssal Generic Organ</VPEMYX_AbyssweaverOrgan.label>
+  <VPEMYX_AbyssweaverOrgan.labelNoun>an abyssal generic organ</VPEMYX_AbyssweaverOrgan.labelNoun>
+  <VPEMYX_AbyssweaverOrgan.description>A universal replacement organ used for missing parts without a dedicated abyssal graft.</VPEMYX_AbyssweaverOrgan.description>
+
+  <VPEMYX_AbyssweaverBrain.label>Abyssal Cortex</VPEMYX_AbyssweaverBrain.label>
+  <VPEMYX_AbyssweaverBrain.labelNoun>an abyssal cortex</VPEMYX_AbyssweaverBrain.labelNoun>
+  <VPEMYX_AbyssweaverBrain.description>A half-fluid neural core that glows in the dark and constantly receives whispers from higher dimensions.</VPEMYX_AbyssweaverBrain.description>
+
+  <VPEMYX_AbyssweaverEye.label>Voidgaze Ocular Implant</VPEMYX_AbyssweaverEye.label>
+  <VPEMYX_AbyssweaverEye.labelNoun>a voidgaze ocular implant</VPEMYX_AbyssweaverEye.labelNoun>
+  <VPEMYX_AbyssweaverEye.description>A pupil-less obsidian-black eye capable of locking onto structural weaknesses and psychic traces.</VPEMYX_AbyssweaverEye.description>
+
+  <VPEMYX_AbyssweaverEar.label>Delusion Receptors</VPEMYX_AbyssweaverEar.label>
+  <VPEMYX_AbyssweaverEar.labelNoun>delusion receptors</VPEMYX_AbyssweaverEar.labelNoun>
+  <VPEMYX_AbyssweaverEar.description>Mutated auditory channels lined with psychic cilia that capture subtle mental waves.</VPEMYX_AbyssweaverEar.description>
+
+  <VPEMYX_AbyssweaverNose.label>Bloodhound Olfactory Sensor</VPEMYX_AbyssweaverNose.label>
+  <VPEMYX_AbyssweaverNose.labelNoun>a bloodhound olfactory sensor</VPEMYX_AbyssweaverNose.labelNoun>
+  <VPEMYX_AbyssweaverNose.description>High-dimensional mucus membranes that filter stench and detect fear and blood.</VPEMYX_AbyssweaverNose.description>
+
+  <VPEMYX_AbyssweaverJaw.label>Bone-Crusher Mandibles</VPEMYX_AbyssweaverJaw.label>
+  <VPEMYX_AbyssweaverJaw.labelNoun>bone-crusher mandibles</VPEMYX_AbyssweaverJaw.labelNoun>
+  <VPEMYX_AbyssweaverJaw.description>A reinforced jawline fitted with interlocking armor-cracking fangs.</VPEMYX_AbyssweaverJaw.description>
+
+  <VPEMYX_AbyssweaverTongue.label>Whispering Tendril</VPEMYX_AbyssweaverTongue.label>
+  <VPEMYX_AbyssweaverTongue.labelNoun>a whispering tendril</VPEMYX_AbyssweaverTongue.labelNoun>
+  <VPEMYX_AbyssweaverTongue.description>A tentacular tongue that emits infrasonic pulses acting directly on the brainstem.</VPEMYX_AbyssweaverTongue.description>
+
+  <VPEMYX_AbyssweaverNeck.label>Aberrant Jugular</VPEMYX_AbyssweaverNeck.label>
+  <VPEMYX_AbyssweaverNeck.labelNoun>an aberrant jugular</VPEMYX_AbyssweaverNeck.labelNoun>
+  <VPEMYX_AbyssweaverNeck.description>Neck arteries wrapped in dense biological scales, heavily reinforcing a critical weak point.</VPEMYX_AbyssweaverNeck.description>
+
+  <VPEMYX_AbyssweaverShoulder.label>Scourge-Grafted Appendage</VPEMYX_AbyssweaverShoulder.label>
+  <VPEMYX_AbyssweaverShoulder.labelNoun>a scourge-grafted appendage</VPEMYX_AbyssweaverShoulder.labelNoun>
+  <VPEMYX_AbyssweaverShoulder.description>Muscle bundles replaced by high-tensile abyssal fibers that can shift between hand and blade function.</VPEMYX_AbyssweaverShoulder.description>
+
+  <VPEMYX_AbyssweaverSpine.label>Abyssal Marrow-Spine</VPEMYX_AbyssweaverSpine.label>
+  <VPEMYX_AbyssweaverSpine.labelNoun>an abyssal marrow-spine</VPEMYX_AbyssweaverSpine.labelNoun>
+  <VPEMYX_AbyssweaverSpine.description>A living metallic spine that hijacks central motor control and amplifies body output.</VPEMYX_AbyssweaverSpine.description>
+
+  <VPEMYX_AbyssweaverLeg.label>Shadow-Tread Hoof</VPEMYX_AbyssweaverLeg.label>
+  <VPEMYX_AbyssweaverLeg.labelNoun>a shadow-tread hoof</VPEMYX_AbyssweaverLeg.labelNoun>
+  <VPEMYX_AbyssweaverLeg.description>Reverse-jointed limb design and silent pads dramatically improve speed and stealth movement.</VPEMYX_AbyssweaverLeg.description>
+
+  <VPEMYX_AbyssweaverHeart.label>Heart of the Abyss</VPEMYX_AbyssweaverHeart.label>
+  <VPEMYX_AbyssweaverHeart.labelNoun>a heart of the abyss</VPEMYX_AbyssweaverHeart.labelNoun>
+  <VPEMYX_AbyssweaverHeart.description>A black-blood circulation core with extreme coagulation behavior that suppresses fatal blood loss.</VPEMYX_AbyssweaverHeart.description>
+
+  <VPEMYX_AbyssweaverLung.label>Gloom-Breathing Sac</VPEMYX_AbyssweaverLung.label>
+  <VPEMYX_AbyssweaverLung.labelNoun>a gloom-breathing sac</VPEMYX_AbyssweaverLung.labelNoun>
+  <VPEMYX_AbyssweaverLung.description>A spore-filled respiratory organ that filters toxins and sustains function in hazardous atmospheres.</VPEMYX_AbyssweaverLung.description>
+
+  <VPEMYX_AbyssweaverKidney.label>Blackblood Filtration Gland</VPEMYX_AbyssweaverKidney.label>
+  <VPEMYX_AbyssweaverKidney.labelNoun>a blackblood filtration gland</VPEMYX_AbyssweaverKidney.labelNoun>
+  <VPEMYX_AbyssweaverKidney.description>Purifies the bloodstream and fortifies resistance against ordinary disease pressure.</VPEMYX_AbyssweaverKidney.description>
+
+  <VPEMYX_AbyssweaverLiver.label>Entropic Synthesis Liver</VPEMYX_AbyssweaverLiver.label>
+  <VPEMYX_AbyssweaverLiver.labelNoun>an entropic synthesis liver</VPEMYX_AbyssweaverLiver.labelNoun>
+  <VPEMYX_AbyssweaverLiver.description>Converts metabolism and neural heat into more stable entropic circulation.</VPEMYX_AbyssweaverLiver.description>
+
+  <VPEMYX_AbyssweaverStomach.label>Ravenous Void-Maw</VPEMYX_AbyssweaverStomach.label>
+  <VPEMYX_AbyssweaverStomach.labelNoun>a ravenous void-maw</VPEMYX_AbyssweaverStomach.labelNoun>
+  <VPEMYX_AbyssweaverStomach.description>A corrosive abyssal digestive sac that handles dangerous intake with minimal poisoning risk.</VPEMYX_AbyssweaverStomach.description>
+
+  <VPEMYX_DelusionBackflowBuff.label>Void Overdrive</VPEMYX_DelusionBackflowBuff.label>
+  <VPEMYX_DelusionBackflowBuff.description>The body is driven by unstable void impulses.</VPEMYX_DelusionBackflowBuff.description>
+
+  <VPEMYX_DistortedMetabolism.label>Distorted Metabolism</VPEMYX_DistortedMetabolism.label>
+  <VPEMYX_DistortedMetabolism.description>The flesh writhes to seal injuries by burning neural heat.</VPEMYX_DistortedMetabolism.description>
+
+  <VPEMYX_EmbraceGloom.label>Embrace Gloom</VPEMYX_EmbraceGloom.label>
+  <VPEMYX_EmbraceGloom.description>The psycaster's mind is synchronized with annihilating darkness and resists entity-born dread.</VPEMYX_EmbraceGloom.description>
+
+  <VPEMYX_FleshFrenzyBuff.label>Flesh Frenzy</VPEMYX_FleshFrenzyBuff.label>
+  <VPEMYX_FleshFrenzyBuff.description>Void-touched shamblers move and kill with unnatural efficiency.</VPEMYX_FleshFrenzyBuff.description>
+
+  <VPEMYX_CorpseThreadsCounter.label>Corpse Threads Counter</VPEMYX_CorpseThreadsCounter.label>
+  <VPEMYX_CorpseThreadsCounter.description>Tracks how many corpses this caster has revived through Corpse Threads.</VPEMYX_CorpseThreadsCounter.description>
+
+  <VPEMYX_MindDrained.label>Mind Drained</VPEMYX_MindDrained.label>
+  <VPEMYX_MindDrained.description>The mind has been completely siphoned, leaving only an empty shell.</VPEMYX_MindDrained.description>
+
+  <VPEMYX_MindSiphonSensitivity.label>Void Neural Amplification</VPEMYX_MindSiphonSensitivity.label>
+  <VPEMYX_MindSiphonSensitivity.description>Psychic sensitivity gained by devouring psylinked neural structures.</VPEMYX_MindSiphonSensitivity.description>
+
+  <VPEMYX_CognitiveHazardAura.label>Cognitive Hazard</VPEMYX_CognitiveHazardAura.label>
+  <VPEMYX_CognitiveHazardAura.description>This psycaster emits memetic contamination that tears at nearby cognition.</VPEMYX_CognitiveHazardAura.description>
+
+  <VPEMYX_CognitiveHazardVictim.label>Cognitive Contamination</VPEMYX_CognitiveHazardVictim.label>
+  <VPEMYX_CognitiveHazardVictim.description>The brain is being shredded by anomalous whispers and consciousness is collapsing.</VPEMYX_CognitiveHazardVictim.description>
+
+  <VPEMYX_VoidSight.label>Void Sight</VPEMYX_VoidSight.label>
+  <VPEMYX_VoidSight.description>Vision synchronized with the void: immune to night terror penalties and darkness limitations.</VPEMYX_VoidSight.description>
+
+  <VPEMYX_FleshMoldingTier1.label>Grafted Predation</VPEMYX_FleshMoldingTier1.label>
+  <VPEMYX_FleshMoldingTier1.description>The grafted aberration rapidly stitches injuries and devours nearby fresh corpses.</VPEMYX_FleshMoldingTier1.description>
+
+  <VPEMYX_FleshMoldingTier2.label>Wailing Mass Resonance</VPEMYX_FleshMoldingTier2.label>
+  <VPEMYX_FleshMoldingTier2.description>The mound crawls slowly while endlessly regenerating and hunting with consume leaps.</VPEMYX_FleshMoldingTier2.description>
+
+  <VPEMYX_FleshMoldingTier3.label>Legion Assault Core</VPEMYX_FleshMoldingTier3.label>
+  <VPEMYX_FleshMoldingTier3.description>The lord of legion gains speed when wounded, suppresses nearby minds, and lashes enemies with massive bone volleys.</VPEMYX_FleshMoldingTier3.description>
+
+  <VPEMYX_AbyssalAtrocityCore.label>Abyssal Atrocity Core</VPEMYX_AbyssalAtrocityCore.label>
+  <VPEMYX_AbyssalAtrocityCore.description>A pseudo-divine living core that crushes space, drags prey, and projects catastrophic void force.</VPEMYX_AbyssalAtrocityCore.description>
+
+  <VPEMYX_AbyssalDamageTransferLink.label>Abyssal Damage Transfer</VPEMYX_AbyssalDamageTransferLink.label>
+  <VPEMYX_AbyssalDamageTransferLink.description>The summoner is linked to abyssal flesh. Incoming damage is redirected to the linked atrocity.</VPEMYX_AbyssalDamageTransferLink.description>
+
+  <VPEMYX_Corruption.label>Corruption</VPEMYX_Corruption.label>
+  <VPEMYX_Corruption.description>Void corruption begins in the brain or core, then progressively spreads through other body parts.</VPEMYX_Corruption.description>
+
+  <VPEMYX_CorruptionLesion.label>Corruption Lesion</VPEMYX_CorruptionLesion.label>
+  <VPEMYX_CorruptionLesion.description>Corruption has infiltrated local tissue and is worsening over time.</VPEMYX_CorruptionLesion.description>
+
+  <VPEMYX_CellularMalignancy.label>Cellular Malignancy</VPEMYX_CellularMalignancy.label>
+  <VPEMYX_CellularMalignancy.description>Target cells enter irreversible collapse, continuously generating malignant tumors and accelerating existing lesions.</VPEMYX_CellularMalignancy.description>
+
+  <VPEMYX_MalignantTumor.label>Malignant Tumor</VPEMYX_MalignantTumor.label>
+  <VPEMYX_MalignantTumor.description>Extreme tissue overgrowth that continuously degrades local function.</VPEMYX_MalignantTumor.description>
+
+  <VPEMYX_WailingAuraVictim.label>Wailing Field Exposure</VPEMYX_WailingAuraVictim.label>
+  <VPEMYX_WailingAuraVictim.description>The victim is overwhelmed by resonant agony from a wailing flesh-mound.</VPEMYX_WailingAuraVictim.description>
+
+  <VPEMYX_WailingDevourPredator.label>Ravenous Digestion</VPEMYX_WailingDevourPredator.label>
+  <VPEMYX_WailingDevourPredator.description>While digesting prey, this aberration becomes highly resilient and regenerates rapidly.</VPEMYX_WailingDevourPredator.description>
+
+  <VPEMYX_LegionMomentum.label>Legion Momentum</VPEMYX_LegionMomentum.label>
+  <VPEMYX_LegionMomentum.description>Taking damage drives the legion aberration into a faster pursuit state. Stacks up to 5.</VPEMYX_LegionMomentum.description>
+
+  <VPEMYX_LegionDreadField.label>Legion Dread Field</VPEMYX_LegionDreadField.label>
+  <VPEMYX_LegionDreadField.description>The oppressive aura of the legion aberration is grinding down cognition and coordination.</VPEMYX_LegionDreadField.description>
+
+  <VPEMYX_LegionRiftBurn.label>Rift Laceration</VPEMYX_LegionRiftBurn.label>
+  <VPEMYX_LegionRiftBurn.description>Residual claws of void-slashed terrain keep tearing at the victim.</VPEMYX_LegionRiftBurn.description>
+
+  <VPEMYX_LegionScreamShock.label>Legion Scream Shock</VPEMYX_LegionScreamShock.label>
+  <VPEMYX_LegionScreamShock.description>The roar forces catastrophic sensory and motor disruption.</VPEMYX_LegionScreamShock.description>
+
+  <VPEMYX_VoidReturnTimer.label>Void Tether</VPEMYX_VoidReturnTimer.label>
+  <VPEMYX_VoidReturnTimer.description>A temporary void tether sustaining this summoned entity.</VPEMYX_VoidReturnTimer.description>
+
+  <VPEMYX_VoidAscensionCocoon.label>Void Ascension Metamorphosis</VPEMYX_VoidAscensionCocoon.label>
+  <VPEMYX_VoidAscensionCocoon.description>Ultimate void power is rewriting this body. The target remains in prolonged coma until transformation completes.</VPEMYX_VoidAscensionCocoon.description>
+
+  <VPEMYX_VoidAvatar.label>Void Avatar</VPEMYX_VoidAvatar.label>
+  <VPEMYX_VoidAvatar.description>Irreversible transformation complete. This being is no longer human, but a vessel of the void.</VPEMYX_VoidAvatar.description>
+
+  <VPEMYX_BrainWithering.label>Brain Withering</VPEMYX_BrainWithering.label>
+  <VPEMYX_BrainWithering.description>Void whispers from the Domain of Silence are continuously eroding this target's neural core.</VPEMYX_BrainWithering.description>
+
+  <VPEMYX_DomainOfSilenceChannel.label>Domain of Silence</VPEMYX_DomainOfSilenceChannel.label>
+  <VPEMYX_DomainOfSilenceChannel.description>The caster is channeling the Domain of Silence in place, eroding enemy brains and suppressing technological firepower.</VPEMYX_DomainOfSilenceChannel.description>
+
+  <VPEMYX_DarkBeaconChannel.label>Dark Beacon</VPEMYX_DarkBeaconChannel.label>
+  <VPEMYX_DarkBeaconChannel.description>The caster becomes a void beacon. A rift continuously deploys entity forces into reality until channeling is interrupted.</VPEMYX_DarkBeaconChannel.description>
+</LanguageData>

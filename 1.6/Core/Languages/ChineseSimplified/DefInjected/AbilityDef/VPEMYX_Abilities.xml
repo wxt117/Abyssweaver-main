@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VPEMYX_FleshHealing.label>畸体补全</VPEMYX_FleshHealing.label>
+  <VPEMYX_FleshHealing.description>虚空从不吝啬它的“仁慈”，但这种仁慈往往令人毛骨悚然。引导深渊能量，瞬间治愈目标常规伤势；若目标存在器官或肢体缺失，缺失部位将被强制生长出对应的渊化替代器官。</VPEMYX_FleshHealing.description>
+
+  <VPEMYX_DelusionBackflow.label>妄念倒灌</VPEMYX_DelusionBackflow.label>
+  <VPEMYX_DelusionBackflow.description>向目标脑海灌入虚空呓语。敌人会陷入重度精神崩溃；友军会获得短时无痛与高机动，但心情显著下降。</VPEMYX_DelusionBackflow.description>
+
+  <VPEMYX_DistortedMetabolismActivate.label>畸变代谢</VPEMYX_DistortedMetabolismActivate.label>
+  <VPEMYX_DistortedMetabolismActivate.description>被动：激活后常驻。受伤时自动消耗少量神经热，快速再生、止血并缓慢消退疤痕；神经热过载时停止生效。</VPEMYX_DistortedMetabolismActivate.description>
+
+  <VPEMYX_CorpseThreads.label>秽土牵丝</VPEMYX_CorpseThreads.label>
+  <VPEMYX_CorpseThreads.description>刺穿死亡神经，唤醒范围内全部尸体为蹒跚怪，持续 90 秒后返回虚空。累计复活 100 具尸体可解锁“血肉狂热”。</VPEMYX_CorpseThreads.description>
+
+  <VPEMYX_PsychicScream.label>绝望哀嚎</VPEMYX_PsychicScream.label>
+  <VPEMYX_PsychicScream.description>模拟虚空深处的无尽哀嚎，撕裂敌方理智。以自身为中心释放大范围心灵冲击，使范围内敌对目标承受巨额心情惩罚。</VPEMYX_PsychicScream.description>
+
+  <VPEMYX_SummonEntity.label>撕裂帷幕</VPEMYX_SummonEntity.label>
+  <VPEMYX_SummonEntity.description>现实的帷幕被撕开，下级孽物趁隙而入。召唤 5 个友方低级异常实体，持续 90 秒后返回虚空。</VPEMYX_SummonEntity.description>
+
+  <VPEMYX_EmbraceGloomActivate.label>拥抱黯灭</VPEMYX_EmbraceGloomActivate.label>
+  <VPEMYX_EmbraceGloomActivate.description>被动：与极暗共鸣。免疫由实体、黑暗与异常天气引发的精神惩罚；在“反常黑暗”期间，灵能集中度自然恢复速度大幅提升。</VPEMYX_EmbraceGloomActivate.description>
+
+  <VPEMYX_CognitiveHazardActivate.label>认知灾害</VPEMYX_CognitiveHazardActivate.label>
+  <VPEMYX_CognitiveHazardActivate.description>被动：施法者成为行走的模因污染源。大范围内任何试图瞄准或攻击施法者的敌人，意识会持续流失并承受重度心情崩溃惩罚。</VPEMYX_CognitiveHazardActivate.description>
+
+  <VPEMYX_EngulfingUnlight.label>极夜吞噬</VPEMYX_EngulfingUnlight.label>
+  <VPEMYX_EngulfingUnlight.description>强制全图进入反常黑暗半天。黑暗中大量夜魇将被召唤并猎杀敌对目标。施法者与友军获得“虚无视界”，免疫夜魇仇恨并可在黑暗中作战。</VPEMYX_EngulfingUnlight.description>
+
+  <VPEMYX_GlobalLobotomy.label>全域脑裂</VPEMYX_GlobalLobotomy.label>
+  <VPEMYX_GlobalLobotomy.description>向整张地图广播虚空真理。除施法者外，所有生物都会被灌入不可理解的恐怖知识并强制陷入极端精神崩溃。</VPEMYX_GlobalLobotomy.description>
+
+  <VPEMYX_MindSiphon.label>脑髓啜饮</VPEMYX_MindSiphon.label>
+  <VPEMYX_MindSiphon.description>将灵能触手刺入倒地敌人的颅骨，掠夺其经验与潜能。永久夺取目标随机 1 级技能并转移给施法者；有概率连同该技能热情一并窃取。若目标拥有启灵神经，施法者额外获得心灵敏感度增幅。目标意识将被永久锁定为 0。</VPEMYX_MindSiphon.description>
+
+  <VPEMYX_FleshMolding.label>血肉熔铸</VPEMYX_FleshMolding.label>
+  <VPEMYX_FleshMolding.description>撕碎现实法则，吞噬范围内全部未腐烂尸体与倒地敌人，并将其强行熔铸为绝对服从的实体畸变体。耗材达到 5/15/30 时，分别塑成残肢缝合体、哀嚎肉山、群聚憎恶。</VPEMYX_FleshMolding.description>
+
+  <VPEMYX_VoidCommand.label>梦魇叩门</VPEMYX_VoidCommand.label>
+  <VPEMYX_VoidCommand.description>用更高阶的宇宙法则下达法旨，迫使深渊中的高级捕食者跨越维度前来效忠。召唤 1 个高级实体和 2 个低级实体为你作战，持续 90 秒后返回虚空。</VPEMYX_VoidCommand.description>
+
+  <VPEMYX_VoidAscension.label>虚空飞升</VPEMYX_VoidAscension.label>
+  <VPEMYX_VoidAscension.description>不可逆转化。施法者引导虚空终极力量贯穿全身，经历极痛苦的昏迷变异后，彻底放弃人类身份并化为“虚空神选”。</VPEMYX_VoidAscension.description>
+
+  <VPEMYX_DomainOfSilence.label>死寂之域</VPEMYX_DomainOfSilence.label>
+  <VPEMYX_DomainOfSilence.description>将全图空间暂时剥离出现实维度。领域内敌对生物会被施加“大脑凋零”并持续走向脑死亡；科技武器、机械炮塔与爆炸物在领域内失效。该技能为维持引导：施法者必须原地站定，且每秒神经热消耗递增，神经热超过 80% 将自动终止。</VPEMYX_DomainOfSilence.description>
+
+  <VPEMYX_AbyssalBirth.label>神孽降诞</VPEMYX_AbyssalBirth.label>
+  <VPEMYX_AbyssalBirth.description>虚空渗透抵达临界。献祭地图上 7 只友方【群聚憎恶】，将其彻底抹除，并在施法者身边召唤一头永久存在的究极异星神明——【渊诞神孽】。</VPEMYX_AbyssalBirth.description>
+
+  <VPEMYX_DarkBeacon.label>黑暗灯塔</VPEMYX_DarkBeacon.label>
+  <VPEMYX_DarkBeacon.description>肉体化作连接现实与无尽深渊的永久锚点。开启虚空裂隙后，每 5 秒涌出 1 个高级实体与 4 个低级实体，数量无上限。再次释放可关闭裂隙，并强制遣返全部由此技能召唤出的实体。施法者必须原地持续引导。</VPEMYX_DarkBeacon.description>
+</LanguageData>

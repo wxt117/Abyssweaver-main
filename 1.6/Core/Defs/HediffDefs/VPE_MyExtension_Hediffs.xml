@@ -1,0 +1,1493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverOrgan</defName>
+    <label>渊化异体器官</label>
+    <labelNoun>一个渊化异体器官</labelNoun>
+    <description>通用替换器官。用于替代未定义的缺失部位。English: Abyssal Generic Organ.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.35</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverBrain</defName>
+    <label>渊智神经中枢</label>
+    <labelNoun>一个渊智神经中枢</labelNoun>
+    <description>English: Abyssal Cortex. 一团散发微光的半流体神经胶质，会持续接收高维低语。</description>
+    <defaultInstallPart>Brain</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <painFactor>0.5</painFactor>
+        <statOffsets>
+          <PsychicSensitivity>0.5</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverEye</defName>
+    <label>虚无视界眼</label>
+    <labelNoun>一个虚无视界眼</labelNoun>
+    <description>English: Voidgaze Ocular Implant. 黑曜质感的纯黑眼球，可锁定物质弱点与灵魂轨迹。</description>
+    <defaultInstallPart>Eye</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+          <MeleeDodgeChance>8</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverEar</defName>
+    <label>妄念接收器</label>
+    <labelNoun>一个妄念接收器</labelNoun>
+    <description>English: Delusion Receptors. 异化耳道与灵能纤毛持续捕捉环境中的精神波动。</description>
+    <defaultInstallPart>Ear</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeditationFocusGain>0.08</MeditationFocusGain>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverNose</defName>
+    <label>寻血嗅探腺</label>
+    <labelNoun>一个寻血嗅探腺</labelNoun>
+    <description>English: Bloodhound Olfactory Sensor. 高维黏膜可过滤腐败恶臭并识别恐惧与血腥。</description>
+    <defaultInstallPart>Nose</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_AbyssweaverNoseFilter">
+        <checkIntervalTicks>180</checkIntervalTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverJaw</defName>
+    <label>碎骨撕咬颚</label>
+    <labelNoun>一个碎骨撕咬颚</labelNoun>
+    <description>English: Bone-Crusher Mandibles. 下颌加固并替换为碎甲棘齿。</description>
+    <defaultInstallPart>Jaw</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>2.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statFactors>
+          <EatingSpeed>2.0</EatingSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverTongue</defName>
+    <label>蛊惑肉信使</label>
+    <labelNoun>一个蛊惑肉信使</labelNoun>
+    <description>English: Whispering Tendril. 触须化舌体可发出作用脑干的次声波。</description>
+    <defaultInstallPart>Tongue</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>0.2</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverNeck</defName>
+    <label>异化黑血颈</label>
+    <labelNoun>一个异化黑血颈</labelNoun>
+    <description>English: Aberrant Jugular. 黑血动脉被生物鳞片包覆，显著强化颈部防护。</description>
+    <defaultInstallPart>Neck</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverShoulder</defName>
+    <label>灾厄重构肢</label>
+    <labelNoun>一个灾厄重构肢</labelNoun>
+    <description>English: Scourge-Grafted Appendage. 肌束重构为高强度碳基绞索，可在人手与骨刃间切换。</description>
+    <defaultInstallPart>Shoulder</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeArmorPenetration>0.25</MeleeArmorPenetration>
+        </statOffsets>
+        <statFactors>
+          <MeleeCooldownFactor>0.7</MeleeCooldownFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverSpine</defName>
+    <label>渊髓中枢柱</label>
+    <labelNoun>一个渊髓中枢柱</labelNoun>
+    <description>English: Abyssal Marrow-Spine. 活体金属脊柱会接管宿主的中枢驱动。</description>
+    <defaultInstallPart>Spine</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <CarryingCapacity>50</CarryingCapacity>
+        </statOffsets>
+        <statFactors>
+          <MeleeDamageFactor>1.15</MeleeDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverLeg</defName>
+    <label>踏影畸变足</label>
+    <labelNoun>一个踏影畸变足</labelNoun>
+    <description>English: Shadow-Tread Hoof. 反关节步态与静音足垫显著提升机动与潜行。</description>
+    <defaultInstallPart>Leg</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statFactors>
+          <MoveSpeed>1.35</MoveSpeed>
+          <PawnTrapSpringChance>0.1</PawnTrapSpringChance>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverHeart</defName>
+    <label>深渊悸动核</label>
+    <labelNoun>一个深渊悸动核</labelNoun>
+    <description>English: Heart of the Abyss. 以黑血吞吐驱动循环，并通过异常凝血显著抑制失血。</description>
+    <defaultInstallPart>Heart</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_AbyssweaverBloodCoagulation">
+        <checkIntervalTicks>60</checkIntervalTicks>
+        <bloodLossReductionPerPulse>0.007</bloodLossReductionPerPulse>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverLung</defName>
+    <label>黯息过滤囊</label>
+    <labelNoun>一个黯息过滤囊</labelNoun>
+    <description>English: Gloom-Breathing Sac. 通过虚空孢子过滤有毒气体，维持异常环境生存。</description>
+    <defaultInstallPart>Lung</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.5</ToxicResistance>
+          <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverKidney</defName>
+    <label>污血净化囊</label>
+    <labelNoun>一个污血净化囊</labelNoun>
+    <description>English: Blackblood Filtration Gland. 过滤宿主体内杂质并强化疾病抵抗。</description>
+    <defaultInstallPart>Kidney</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>0.5</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverLiver</defName>
+    <label>熵能代谢腺</label>
+    <labelNoun>一个熵能代谢腺</labelNoun>
+    <description>English: Entropic Synthesis Liver. 将代谢与神经热转换为更高效的熵能循环。</description>
+    <defaultInstallPart>Liver</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicEntropyRecoveryRate>0.35</PsychicEntropyRecoveryRate>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>VPEMYX_AbyssweaverStomach</defName>
+    <label>虚空贪婪胃</label>
+    <labelNoun>一个虚空贪婪胃</labelNoun>
+    <description>English: Ravenous Void-Maw. 强腐蚀性胃液可快速消化异常食物并压制中毒反应。</description>
+    <defaultInstallPart>Stomach</defaultInstallPart>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_AbyssweaverStomachFilter">
+        <checkIntervalTicks>60</checkIntervalTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_DelusionBackflowBuff</defName>
+    <label>void overdrive</label>
+    <description>The body is driven by unstable void impulses.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800~1800</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.0</painFactor>
+        <statOffsets>
+          <MoveSpeed>1.8</MoveSpeed>
+          <MeleeDodgeChance>0.45</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_DistortedMetabolism</defName>
+    <label>distorted metabolism</label>
+    <description>The flesh writhes to seal injuries by burning neural heat.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_DistortedMetabolism">
+        <checkIntervalTicks>60</checkIntervalTicks>
+        <entropyCostPerPulse>0.02</entropyCostPerPulse>
+        <injuryHealAmount>2.0</injuryHealAmount>
+        <permanentInjuryHealAmount>0.35</permanentInjuryHealAmount>
+        <bloodLossReduction>0.03</bloodLossReduction>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_EmbraceGloom</defName>
+    <label>拥抱黯灭</label>
+    <description>该灵能者的心智与黯灭同调，不再被实体、黑暗与异常天气侵蚀。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_EmbraceGloom">
+        <checkIntervalTicks>60</checkIntervalTicks>
+        <darknessConditionDefName>UnnaturalDarkness</darknessConditionDefName>
+        <psyfocusRecoveryPerDayInDarkness>0.4</psyfocusRecoveryPerDayInDarkness>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_FleshFrenzyBuff</defName>
+    <label>flesh frenzy</label>
+    <description>Void-touched shamblers move and kill with unnatural efficiency.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>2.2</MoveSpeed>
+          <MeleeDodgeChance>0.35</MeleeDodgeChance>
+          <MeleeHitChance>0.35</MeleeHitChance>
+          <MeleeDamageFactor>1.0</MeleeDamageFactor>
+          <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_CorpseThreadsCounter</defName>
+    <label>corpse threads counter</label>
+    <description>Tracks how many corpses this caster has revived via Corpse Threads.</description>
+    <hediffClass>VPE_MyExtension.Hediff_CorpseThreadsCounter</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_MindDrained</defName>
+    <label>脑髓枯竭</label>
+    <description>思维被彻底啜饮，只剩空洞躯壳。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-1.0</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_MindSiphonSensitivity</defName>
+    <label>虚空神经增幅</label>
+    <description>通过吞噬启灵神经获得的心灵敏感度增幅。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>10</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.10</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.20</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>5</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>6</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.30</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>7</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.35</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>8</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.40</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>9</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.45</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>10</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.50</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_CognitiveHazardAura</defName>
+    <label>认知灾害</label>
+    <description>该灵能者周围充满会撕裂思维的模因污染。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_CognitiveHazardAura">
+        <radius>55</radius>
+        <checkIntervalTicks>30</checkIntervalTicks>
+        <severityGainPerPulse>0.03</severityGainPerPulse>
+        <severityDecayPerPulse>0.02</severityDecayPerPulse>
+        <maxSeverity>1.2</maxSeverity>
+        <thoughtRefreshIntervalTicks>150</thoughtRefreshIntervalTicks>
+        <victimHediffDefName>VPEMYX_CognitiveHazardVictim</victimHediffDefName>
+        <moodThoughtDefName>VPEMYX_CognitiveHazardThought</moodThoughtDefName>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_CognitiveHazardVictim</defName>
+    <label>认知污染</label>
+    <description>大脑被异常低语持续撕裂，意识正在崩解。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.2</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.30</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.45</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>1.0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.65</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_VoidSight</defName>
+    <label>虚无视界</label>
+    <description>视野与虚空同步，不受极夜侵蚀且可看穿黑暗。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>30000~30000</disappearsAfterTicks>
+      </li>
+      <li Class="VPE_MyExtension.HediffCompProperties_VoidSight">
+        <checkIntervalTicks>30</checkIntervalTicks>
+        <darknessExposureDefName>DarknessExposure</darknessExposureDefName>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.35</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_FleshMoldingTier1</defName>
+    <label>grafted predation</label>
+    <description>The grafted aberration rapidly stitches injuries and devours nearby fresh corpses.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_FleshMoldingTier1">
+        <checkIntervalTicks>90</checkIntervalTicks>
+        <injuryHealAmount>1.2</injuryHealAmount>
+        <bloodLossReduction>0.03</bloodLossReduction>
+        <corpseCheckIntervalTicks>420</corpseCheckIntervalTicks>
+        <corpseSearchRadius>2.9</corpseSearchRadius>
+        <corpseBonusHealAmount>4.0</corpseBonusHealAmount>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeDodgeChance>0.12</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_FleshMoldingTier2</defName>
+    <label>wailing mass resonance</label>
+    <description>The mound crawls slowly while endlessly regenerating and hunts with devourer-style consume leaps.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_WailingAura">
+        <radius>8</radius>
+        <checkIntervalTicks>60</checkIntervalTicks>
+        <severityGainPerPulse>0.08</severityGainPerPulse>
+        <severityDecayPerPulse>0.06</severityDecayPerPulse>
+        <thoughtRefreshIntervalTicks>300</thoughtRefreshIntervalTicks>
+      </li>
+      <li Class="VPE_MyExtension.HediffCompProperties_FleshMoundShockwave">
+        <pulseIntervalTicks>420</pulseIntervalTicks>
+        <radius>3.9</radius>
+        <damageAmount>11</damageAmount>
+        <armorPenetration>0.12</armorPenetration>
+        <stunChance>0.35</stunChance>
+        <stunTicks>90</stunTicks>
+      </li>
+      <li Class="VPE_MyExtension.HediffCompProperties_WailingRegen">
+        <checkIntervalTicks>20</checkIntervalTicks>
+        <healAmount>3.5</healAmount>
+        <injuriesPerPulse>4</injuriesPerPulse>
+        <bloodLossReduction>0.16</bloodLossReduction>
+        <scarHealChance>0.38</scarHealChance>
+      </li>
+      <li Class="VPE_MyExtension.HediffCompProperties_WailingDevourerPassive">
+        <checkIntervalTicks>5</checkIntervalTicks>
+        <targetDigestDurationTicks>900</targetDigestDurationTicks>
+        <digestingBuffHediffDefName>VPEMYX_WailingDevourPredator</digestingBuffHediffDefName>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>-2.15</MoveSpeed>
+          <MeleeDamageFactor>0.35</MeleeDamageFactor>
+          <InjuryHealingFactor>2.5</InjuryHealingFactor>
+          <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_FleshMoldingTier3</defName>
+    <label>legion assault core</label>
+    <description>The lord of legion abandons reckless charges and grows faster when wounded, while still suppressing nearby minds and lashing enemies with massive bone volleys.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_LegionAssault">
+        <checkIntervalTicks>30</checkIntervalTicks>
+        <sweepIntervalTicks>90</sweepIntervalTicks>
+        <sweepRadius>5.2</sweepRadius>
+        <sweepDamage>20</sweepDamage>
+        <sweepArmorPenetration>0.22</sweepArmorPenetration>
+        <sweepStunChance>0.35</sweepStunChance>
+        <sweepStunTicks>60</sweepStunTicks>
+        <dreadPulseIntervalTicks>75</dreadPulseIntervalTicks>
+        <dreadRadius>11.4</dreadRadius>
+        <dreadSeverityGain>0.12</dreadSeverityGain>
+        <dreadSeverityDecay>0.08</dreadSeverityDecay>
+        <dreadThoughtRefreshIntervalTicks>300</dreadThoughtRefreshIntervalTicks>
+        <sweepTelegraphTicks>24</sweepTelegraphTicks>
+        <sweepStageGapTicks>8</sweepStageGapTicks>
+        <sweepStage1RadiusFactor>0.45</sweepStage1RadiusFactor>
+        <sweepStage2RadiusFactor>0.75</sweepStage2RadiusFactor>
+        <sweepStage3RadiusFactor>1.0</sweepStage3RadiusFactor>
+        <sweepStage1DamageFactor>0.55</sweepStage1DamageFactor>
+        <sweepStage2DamageFactor>0.90</sweepStage2DamageFactor>
+        <sweepStage3DamageFactor>1.25</sweepStage3DamageFactor>
+        <ultimateCooldownTicks>2400</ultimateCooldownTicks>
+        <ultimateHealthThreshold>0.40</ultimateHealthThreshold>
+        <ultimateRadius>55</ultimateRadius>
+        <ultimateStunTicks>120</ultimateStunTicks>
+        <ultimateShockSeverity>1.0</ultimateShockSeverity>
+        <damageMomentumDurationTicks>300</damageMomentumDurationTicks>
+        <damageMomentumGainPerHit>1.0</damageMomentumGainPerHit>
+        <damageMomentumMaxSeverity>5.0</damageMomentumMaxSeverity>
+        <damageMomentumDecayIntervalTicks>30</damageMomentumDecayIntervalTicks>
+        <damageMomentumDecayPerPulse>1.0</damageMomentumDecayPerPulse>
+        <meleeTargetLockTicks>240</meleeTargetLockTicks>
+        <fearRoarIntervalTicks>2700</fearRoarIntervalTicks>
+        <fearRoarRadius>13.5</fearRoarRadius>
+        <fearRoarStunTicks>300</fearRoarStunTicks>
+      </li>
+      <li Class="VPE_MyExtension.HediffCompProperties_LegionPassiveRegen">
+        <checkIntervalTicks>24</checkIntervalTicks>
+        <unstoppableCheckIntervalTicks>10</unstoppableCheckIntervalTicks>
+        <combatRadius>10</combatRadius>
+        <healAmountInCombat>3.2</healAmountInCombat>
+        <healAmountOutOfCombat>1.2</healAmountOutOfCombat>
+        <injuriesPerPulseInCombat>4</injuriesPerPulseInCombat>
+        <injuriesPerPulseOutOfCombat>2</injuriesPerPulseOutOfCombat>
+        <bloodLossReductionInCombat>0.14</bloodLossReductionInCombat>
+        <bloodLossReductionOutOfCombat>0.06</bloodLossReductionOutOfCombat>
+        <scarHealChanceInCombat>0.45</scarHealChanceInCombat>
+        <scarHealChanceOutOfCombat>0.15</scarHealChanceOutOfCombat>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeHitChance>0.18</MeleeHitChance>
+          <MeleeDodgeChance>0.10</MeleeDodgeChance>
+          <MeleeDamageFactor>0.70</MeleeDamageFactor>
+          <MeleeCooldownFactor>-0.48</MeleeCooldownFactor>
+          <MoveSpeed>0.28</MoveSpeed>
+          <IncomingDamageFactor>-0.80</IncomingDamageFactor>
+          <StaggerDurationFactor>-1.0</StaggerDurationFactor>
+          <PainShockThreshold>100</PainShockThreshold>
+          <InjuryHealingFactor>2.0</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_AbyssalAtrocityCore</defName>
+    <label>abyssal atrocity core</label>
+    <description>A living pseudo-god core. The host crushes space, drags prey, and projects catastrophic void force.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_AbyssalAtrocityCore">
+        <thinkIntervalTicks>30</thinkIntervalTicks>
+        <gravityPulseCooldownTicks>2700</gravityPulseCooldownTicks>
+        <gravitySearchRadius>48</gravitySearchRadius>
+        <gravityPulseRadius>16</gravityPulseRadius>
+        <gravityPulseMaxTargets>16</gravityPulseMaxTargets>
+        <gravityPulseDamage>28</gravityPulseDamage>
+        <gravityPulseArmorPenetration>0.38</gravityPulseArmorPenetration>
+        <gravityPulseStunTicks>210</gravityPulseStunTicks>
+        <gravityPullDistanceFromHole>1.6</gravityPullDistanceFromHole>
+        <gravityCorruptionSeverity>0.24</gravityCorruptionSeverity>
+        <followCheckIntervalTicks>45</followCheckIntervalTicks>
+        <followDesiredDistance>8</followDesiredDistance>
+        <followTeleportDistance>28</followTeleportDistance>
+        <followTeleportRadius>2.8</followTeleportRadius>
+        <terrorRoarCooldownTicks>3600</terrorRoarCooldownTicks>
+        <terrorRoarRadius>0</terrorRoarRadius>
+        <terrorRoarMapRadiusFactor>0.5</terrorRoarMapRadiusFactor>
+        <terrorRoarDamage>36</terrorRoarDamage>
+        <terrorRoarArmorPenetration>0.4</terrorRoarArmorPenetration>
+        <terrorRoarStunTicks>480</terrorRoarStunTicks>
+        <terrorRoarDreadSeverityGain>0.5</terrorRoarDreadSeverityGain>
+        <fleshDistortionCooldownTicks>900</fleshDistortionCooldownTicks>
+        <fleshDistortionSearchRadius>48</fleshDistortionSearchRadius>
+        <fleshDistortionRadius>10.5</fleshDistortionRadius>
+        <fleshDistortionMaxTargets>20</fleshDistortionMaxTargets>
+        <fleshDistortionInitialSeverity>0.22</fleshDistortionInitialSeverity>
+        <corruptionPulseIntervalTicks>120</corruptionPulseIntervalTicks>
+        <corruptionPulseSearchRadius>56</corruptionPulseSearchRadius>
+        <corruptionPulseRadius>3.4</corruptionPulseRadius>
+        <corruptionPulseMaxTargets>6</corruptionPulseMaxTargets>
+        <corruptionPulseSeverityGain>0.10</corruptionPulseSeverityGain>
+        <corruptionPulseBonusIfAlreadyCorrupted>0.18</corruptionPulseBonusIfAlreadyCorrupted>
+        <regenIntervalTicks>10</regenIntervalTicks>
+        <regenHealPerPulse>10.0</regenHealPerPulse>
+        <regenInjuriesPerPulse>10</regenInjuriesPerPulse>
+        <regenBloodLossReduction>0.45</regenBloodLossReduction>
+        <voidShieldMaxCharges>36</voidShieldMaxCharges>
+        <voidShieldHitThreshold>45</voidShieldHitThreshold>
+        <voidShieldWindowTicks>60</voidShieldWindowTicks>
+        <voidShieldDamageFactor>0.02</voidShieldDamageFactor>
+        <voidShieldRechargeIntervalTicks>240</voidShieldRechargeIntervalTicks>
+        <voidShieldRechargeAmount>1</voidShieldRechargeAmount>
+        <voidShieldRechargeDelayAfterHitTicks>300</voidShieldRechargeDelayAfterHitTicks>
+        <enableDamageTransfer>true</enableDamageTransfer>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.0</painFactor>
+        <statOffsets>
+          <MoveSpeed>0.45</MoveSpeed>
+          <MeleeHitChance>0.32</MeleeHitChance>
+          <MeleeDodgeChance>0.24</MeleeDodgeChance>
+          <MeleeDamageFactor>2.4</MeleeDamageFactor>
+          <MeleeCooldownFactor>-0.68</MeleeCooldownFactor>
+          <IncomingDamageFactor>-0.98</IncomingDamageFactor>
+          <StaggerDurationFactor>-1.0</StaggerDurationFactor>
+          <PainShockThreshold>100</PainShockThreshold>
+          <InjuryHealingFactor>10.0</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.95</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.75</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_AbyssalDamageTransferLink</defName>
+    <label>abyssal damage transfer</label>
+    <description>The summoner is bound to abyssal flesh. Incoming damage is redirected to the linked atrocity.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_AbyssalDamageTransferLink" />
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_Corruption</defName>
+    <label>腐化</label>
+    <description>虚空腐化最初寄生于大脑（或核心），随后沿神经与结构持续蔓延到全身。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.5</maxSeverity>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_CorruptionSpread">
+        <severityIntervalTicks>90</severityIntervalTicks>
+        <localSeverityGainPerPulse>0.012</localSeverityGainPerPulse>
+        <spreadIntervalTicks>300</spreadIntervalTicks>
+        <spreadPartsPerPulse>1</spreadPartsPerPulse>
+        <maxAffectedParts>14</maxAffectedParts>
+        <spreadInitialSeverity>0.14</spreadInitialSeverity>
+        <spreadExistingSeverityGain>0.03</spreadExistingSeverityGain>
+        <spreadHediffDefName>VPEMYX_CorruptionLesion</spreadHediffDefName>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.03</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.65</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.08</MoveSpeed>
+          <MeleeHitChance>-0.06</MeleeHitChance>
+          <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>1.35</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.16</MoveSpeed>
+          <MeleeHitChance>-0.12</MeleeHitChance>
+          <ShootingAccuracyPawn>-0.14</ShootingAccuracyPawn>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.22</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.14</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_CorruptionLesion</defName>
+    <label>腐化病灶</label>
+    <description>腐化已渗入局部组织并逐渐恶化。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <painOffset>0.01</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <painOffset>0.04</painOffset>
+      </li>
+      <li>
+        <minSeverity>1.3</minSeverity>
+        <painOffset>0.08</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_CellularMalignancy</defName>
+    <label>细胞恶变</label>
+    <description>目标细胞进入不可逆崩坏，持续生成恶性肿瘤并加速既有病灶恶化。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.5</maxSeverity>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_CellularMalignancy">
+        <pulseIntervalTicks>120</pulseIntervalTicks>
+        <randomPartsPerPulse>4</randomPartsPerPulse>
+        <controllerSeverityGainPerPulse>0.018</controllerSeverityGainPerPulse>
+        <tumorInitialSeverity>0.20</tumorInitialSeverity>
+        <existingTumorSeverityGain>0.06</existingTumorSeverityGain>
+        <tumorHediffDefName>Carcinoma</tumorHediffDefName>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.12</MoveSpeed>
+          <MeleeDodgeChance>-0.10</MeleeDodgeChance>
+          <ShootingAccuracyPawn>-0.12</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>1.5</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.18</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.16</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_MalignantTumor</defName>
+    <label>恶性肿瘤</label>
+    <description>组织发生极端增殖，局部机能持续崩解。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.2</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <painOffset>0.03</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <painOffset>0.08</painOffset>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.08</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>1.4</minSeverity>
+        <painOffset>0.16</painOffset>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.16</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.16</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_WailingAuraVictim</defName>
+    <label>wailing field exposure</label>
+    <description>The victim is overwhelmed by resonant agony from a wailing flesh-mound.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.18</MoveSpeed>
+          <MeleeDodgeChance>-0.06</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.25</MoveSpeed>
+          <MeleeDodgeChance>-0.10</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.32</MoveSpeed>
+          <MeleeDodgeChance>-0.15</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_WailingDevourPredator</defName>
+    <label>ravenous digestion</label>
+    <description>While digesting prey, this aberration becomes highly resilient and regenerates rapidly.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_WailingRegen">
+        <checkIntervalTicks>12</checkIntervalTicks>
+        <healAmount>4.8</healAmount>
+        <injuriesPerPulse>5</injuriesPerPulse>
+        <bloodLossReduction>0.24</bloodLossReduction>
+        <scarHealChance>0.52</scarHealChance>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <IncomingDamageFactor>-0.90</IncomingDamageFactor>
+          <InjuryHealingFactor>4.0</InjuryHealingFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+<HediffDef>
+    <defName>VPEMYX_LegionMomentum</defName>
+    <label>legion momentum</label>
+    <description>Taking damage drives the legion aberration into a faster pursuit state. Stacks up to 5.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>5</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.10</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.20</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.30</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.40</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>5</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.50</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_LegionDreadField</defName>
+    <label>legion dread field</label>
+    <description>The oppressive aura of the legion aberration is grinding down cognition and coordination.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.08</MoveSpeed>
+          <MeleeDodgeChance>-0.04</MeleeDodgeChance>
+          <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.35</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.16</MoveSpeed>
+          <MeleeDodgeChance>-0.09</MeleeDodgeChance>
+          <ShootingAccuracyPawn>-0.16</ShootingAccuracyPawn>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.24</MoveSpeed>
+          <MeleeDodgeChance>-0.15</MeleeDodgeChance>
+          <ShootingAccuracyPawn>-0.24</ShootingAccuracyPawn>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.16</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_LegionRiftBurn</defName>
+    <label>rift laceration</label>
+    <description>Residual claws of void-slashed terrain keep tearing at the victim.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.06</MoveSpeed>
+          <MeleeDodgeChance>-0.04</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.14</MoveSpeed>
+          <MeleeDodgeChance>-0.10</MeleeDodgeChance>
+          <ShootingAccuracyPawn>-0.10</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.22</MoveSpeed>
+          <MeleeDodgeChance>-0.14</MeleeDodgeChance>
+          <ShootingAccuracyPawn>-0.18</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_LegionScreamShock</defName>
+    <label>legion scream shock</label>
+    <description>The roar forces catastrophic sensory and motor disruption.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <ShootingAccuracyPawn>-0.18</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.25</AimingDelayFactor>
+          <MeleeHitChance>-0.08</MeleeHitChance>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <statOffsets>
+          <ShootingAccuracyPawn>-0.35</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.45</AimingDelayFactor>
+          <MeleeHitChance>-0.18</MeleeHitChance>
+          <MoveSpeed>-0.14</MoveSpeed>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.22</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffDef>
+    <defName>VPEMYX_VoidReturnTimer</defName>
+    <label>void tether</label>
+    <description>A temporary void tether sustaining this summoned entity.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_VoidReturn">
+        <durationTicks>5400</durationTicks>
+        <fleckDef>PsycastAreaEffect</fleckDef>
+        <soundDef>Psycast_Skip_Entry</soundDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_VoidAscensionCocoon</defName>
+    <label>虚空飞升转化</label>
+    <description>虚空终极力量正在重写这具肉体。转化完成前，目标将长期昏迷。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_VoidAscensionCocoon">
+        <checkIntervalTicks>30</checkIntervalTicks>
+        <durationTicks>2500</durationTicks>
+        <resultHediffDefName>VPEMYX_VoidAvatar</resultHediffDefName>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-1.0</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_VoidAvatar</defName>
+    <label>虚空神选</label>
+    <description>不可逆转化完成。该个体已不再是人类，肉体与意志都成为虚空容器。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <blocksSleeping>true</blocksSleeping>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_VoidAvatar">
+        <checkIntervalTicks>60</checkIntervalTicks>
+        <bonusSkillLevels>5</bonusSkillLevels>
+        <forcePsychopath>true</forcePsychopath>
+        <clampAnimalsAndPlants>true</clampAnimalsAndPlants>
+        <purgeDiseaseAndToxins>true</purgeDiseaseAndToxins>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <statOffsets>
+          <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+          <ComfyTemperatureMax>100</ComfyTemperatureMax>
+          <ArmorRating_Sharp>1.6</ArmorRating_Sharp>
+          <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+          <ArmorRating_Heat>1.2</ArmorRating_Heat>
+          <RestFallRateFactor>-1.0</RestFallRateFactor>
+          <PsychicSensitivity>2.0</PsychicSensitivity>
+          <PsychicEntropyGain>-0.5</PsychicEntropyGain>
+          <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+          <ToxicResistance>1.0</ToxicResistance>
+          <PainShockThreshold>100</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_BrainWithering</defName>
+    <label>大脑凋零</label>
+    <description>死寂之域中的虚空低语正在持续剥蚀这具躯体的神经中枢。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.5</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>300~300</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.38</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>1.2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.58</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_DomainOfSilenceChannel</defName>
+    <label>死寂之域</label>
+    <description>施法者正在原地维持死寂之域，持续剥蚀敌方神经并压制领域内科技火力。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_DomainOfSilenceChannel">
+        <radius>999</radius>
+        <pulseIntervalTicks>90</pulseIntervalTicks>
+        <entropyIntervalTicks>60</entropyIntervalTicks>
+        <entropyBasePerSecond>5</entropyBasePerSecond>
+        <entropyRampPerSecond>1.2</entropyRampPerSecond>
+        <entropyStopPercent>0.8</entropyStopPercent>
+        <brainDamagePerPulse>0.15</brainDamagePerPulse>
+        <brainSeverityPerPulse>0.006</brainSeverityPerPulse>
+        <brainWitherHediffDefName>VPEMYX_BrainWithering</brainWitherHediffDefName>
+        <visualIntervalTicks>12</visualIntervalTicks>
+        <visualReferenceRadius>30</visualReferenceRadius>
+        <sustainedFleckDefName>PsychicRitual_Sustained</sustainedFleckDefName>
+        <ringFleckDefName>DarkHighlightRing</ringFleckDefName>
+        <distortionFleckDefName>PsychicDistortionRingContractingQuick</distortionFleckDefName>
+        <startupSoundDefName>VoidTerrorCast</startupSoundDefName>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>VPEMYX_DarkBeaconChannel</defName>
+    <label>黑暗灯塔</label>
+    <description>施法者将自身化为虚空灯塔，裂隙持续向现实投放实体军势。离开原地或中断引导将导致裂隙关闭，并遣返全部涌出实体。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="VPE_MyExtension.HediffCompProperties_DarkBeaconChannel">
+        <spawnIntervalTicks>300</spawnIntervalTicks>
+        <spawnRadius>5.9</spawnRadius>
+        <useAllEntitiesIfEmpty>true</useAllEntitiesIfEmpty>
+        <highMinCombatPower>301</highMinCombatPower>
+        <highMaxCombatPower>99999</highMaxCombatPower>
+        <lowMinCombatPower>0</lowMinCombatPower>
+        <lowMaxCombatPower>300</lowMaxCombatPower>
+        <highCountPerWave>1</highCountPerWave>
+        <lowCountPerWave>4</lowCountPerWave>
+        <spawnAsCasterFaction>true</spawnAsCasterFaction>
+        <spawnAsEntitiesFaction>false</spawnAsEntitiesFaction>
+        <excludedPawnkinds>
+          <li>FleshmassNucleus</li>
+          <li>Revenant</li>
+          <li>RP_Spraycyst</li>
+          <li>RP_Rustspark</li>
+          <li>VPEMYX_GraftedAberration</li>
+          <li>VPEMYX_WailingFleshMound</li>
+          <li>VPEMYX_LordOfLegion</li>
+          <li>VPEMYX_AbyssalAtrocity</li>
+        </excludedPawnkinds>
+        <visualIntervalTicks>20</visualIntervalTicks>
+        <startupFleckDefName>VoidStructureIncomingSlow</startupFleckDefName>
+        <ringFleckDefName>DarkHighlightRing</ringFleckDefName>
+        <sustainedFleckDefName>PsychicRitual_Sustained</sustainedFleckDefName>
+        <startupSoundDefName>VoidStructure_Emerge</startupSoundDefName>
+        <intenseLightFleckDefName>TwistingMonolithLightsIntense</intenseLightFleckDefName>
+        <distortionRingFleckDefName>PulsingDistortionRing</distortionRingFleckDefName>
+        <monolithRingFleckDefName>MonolithTwistingRingSlow</monolithRingFleckDefName>
+        <incomingFleckDefName>VoidStructureIncomingSlow</incomingFleckDefName>
+        <climaxSoundDefName>VoidMonolith_ActivateL2L3</climaxSoundDefName>
+        <intensePulseIntervalTicks>30</intensePulseIntervalTicks>
+        <climaxPulseIntervalTicks>120</climaxPulseIntervalTicks>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+
+</Defs>
+
+

@@ -1,0 +1,72 @@
+﻿[h1]Abyssweaver: A VPE Expansion[/h1]
+[i]A VPE path focused on mutation, corruption, summoning, and anomaly-scale battlefield control.[/i]
+
+[hr][/hr]
+[h2]Skill Icons[/h2]
+[b]Aberrant Reconstruction[/b]
+[img]{BASE_URL}/skill_aberrant_reconstruction.png[/img]
+
+[b]Delusion Backflow[/b]
+[img]{BASE_URL}/skill_delusion_backflow.png[/img]
+
+[b]Passive: Distorted Metabolism[/b]
+[img]{BASE_URL}/skill_passive_distorted_metabolism.png[/img]
+
+[b]Corpse Threads[/b]
+[img]{BASE_URL}/skill_corpse_threads.png[/img]
+
+[b]Scream of Despair[/b]
+[img]{BASE_URL}/skill_scream_of_despair.png[/img]
+
+[b]Rend the Veil[/b]
+[img]{BASE_URL}/skill_rend_the_veil.png[/img]
+
+[b]Passive: Embrace Gloom[/b]
+[img]{BASE_URL}/skill_passive_embrace_gloom.png[/img]
+
+[b]Mind Siphon[/b]
+[img]{BASE_URL}/skill_mind_siphon.png[/img]
+
+[b]Flesh Molding[/b]
+[img]{BASE_URL}/skill_flesh_molding.png[/img]
+
+[b]Engulfing Unlight[/b]
+[img]{BASE_URL}/skill_engulfing_unlight.png[/img]
+
+[b]Global Lobotomy[/b]
+[img]{BASE_URL}/skill_global_lobotomy.png[/img]
+
+[b]Passive: Cognitive Hazard[/b]
+[img]{BASE_URL}/skill_passive_cognitive_hazard.png[/img]
+
+[b]Void Command[/b]
+[img]{BASE_URL}/skill_void_command.png[/img]
+
+[b]Domain of Silence[/b]
+[img]{BASE_URL}/skill_domain_of_silence.png[/img]
+
+[b]Void Ascension[/b]
+[img]{BASE_URL}/skill_void_ascension.png[/img]
+
+[b]Abyssal Birth[/b]
+[img]{BASE_URL}/skill_abyssal_birth.png[/img]
+
+[b]Dark Beacon[/b]
+[img]{BASE_URL}/skill_dark_beacon.png[/img]
+
+[hr][/hr]
+[h2]New Aberrations[/h2]
+[b]Grafted Aberration[/b]
+[img]{BASE_URL}/entity_grafted_aberration.png[/img]
+
+[b]Wailing Flesh-Mound (Open)[/b]
+[img]{BASE_URL}/entity_wailing_flesh_mound_open.png[/img]
+
+[b]Wailing Flesh-Mound (Closed)[/b]
+[img]{BASE_URL}/entity_wailing_flesh_mound_closed.png[/img]
+
+[b]Lord of Legion[/b]
+[img]{BASE_URL}/entity_lord_of_legion.png[/img]
+
+[b]Abyssal Atrocity[/b]
+[img]{BASE_URL}/entity_abyssal_atrocity.png[/img]

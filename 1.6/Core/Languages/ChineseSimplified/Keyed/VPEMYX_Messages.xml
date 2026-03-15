@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VPEMYX_Message_VoidAscension_UndraftedOnly>虚空飞升只能在非征召状态下释放。</VPEMYX_Message_VoidAscension_UndraftedOnly>
+  <VPEMYX_Message_VoidAscension_AlreadyCompleted>该角色已经完成过虚空飞升。</VPEMYX_Message_VoidAscension_AlreadyCompleted>
+  <VPEMYX_Message_VoidAscension_AlreadyInProgress>虚空飞升已经在进行中。</VPEMYX_Message_VoidAscension_AlreadyInProgress>
+  <VPEMYX_Message_VoidAscension_NoAssault>虚空已被惊动，但本地图无法生成实体袭击。</VPEMYX_Message_VoidAscension_NoAssault>
+  <VPEMYX_Message_VoidAscension_Began>虚空飞升开始。施法者陷入漫长的变异昏迷。</VPEMYX_Message_VoidAscension_Began>
+  <VPEMYX_Message_VoidAscension_Completed>{0} 完成了虚空飞升，成为虚空神选。</VPEMYX_Message_VoidAscension_Completed>
+
+  <VPEMYX_Message_AbyssalBirth_MissingDefs>神孽降诞失败：缺少牺牲体或结果实体定义。</VPEMYX_Message_AbyssalBirth_MissingDefs>
+  <VPEMYX_Message_AbyssalBirth_NotEnoughSacrifices>神孽降诞需要 {0} 只友方群聚憎恶，当前仅有 {1}。</VPEMYX_Message_AbyssalBirth_NotEnoughSacrifices>
+  <VPEMYX_Message_AbyssalBirth_SpawnFailed>神孽降诞失败：无法生成渊诞神孽。</VPEMYX_Message_AbyssalBirth_SpawnFailed>
+  <VPEMYX_Message_AbyssalBirth_Success>献祭完成，渊诞神孽降临现实。</VPEMYX_Message_AbyssalBirth_Success>
+
+  <VPEMYX_Message_DomainOfSilence_MissingChannel>死寂之域缺少引导 Hediff 定义。</VPEMYX_Message_DomainOfSilence_MissingChannel>
+  <VPEMYX_Message_DomainOfSilence_Cancelled>死寂之域引导已主动取消。</VPEMYX_Message_DomainOfSilence_Cancelled>
+  <VPEMYX_Message_DomainOfSilence_Started>死寂之域展开：引导期间你必须原地维持，领域内科技火力将失效。</VPEMYX_Message_DomainOfSilence_Started>
+  <VPEMYX_Message_DomainOfSilence_MovedCollapse>死寂之域在移动中崩解。</VPEMYX_Message_DomainOfSilence_MovedCollapse>
+  <VPEMYX_Message_DomainOfSilence_DownedInterrupted>死寂之域因施法者倒地而中断。</VPEMYX_Message_DomainOfSilence_DownedInterrupted>
+  <VPEMYX_Message_DomainOfSilence_NoEntropyCircuit>施法者无法再维持心灵熵回路，死寂之域终止。</VPEMYX_Message_DomainOfSilence_NoEntropyCircuit>
+  <VPEMYX_Message_DomainOfSilence_EntropyOver80>神经热超过 80%，死寂之域自动崩解。</VPEMYX_Message_DomainOfSilence_EntropyOver80>
+  <VPEMYX_Message_DomainOfSilence_EntropyOverload>神经热回路过载，死寂之域被迫中断。</VPEMYX_Message_DomainOfSilence_EntropyOverload>
+
+  <VPEMYX_Message_DarkBeacon_MissingChannel>黑暗灯塔缺少引导 Hediff 定义。</VPEMYX_Message_DarkBeacon_MissingChannel>
+  <VPEMYX_Message_DarkBeacon_Closed>黑暗灯塔关闭：裂隙已封锁，召唤实体被强制遣返。</VPEMYX_Message_DarkBeacon_Closed>
+  <VPEMYX_Message_DarkBeacon_Opened>黑暗灯塔开启：你必须原地引导，虚空潮汐开始涌入。</VPEMYX_Message_DarkBeacon_Opened>
+  <VPEMYX_Message_DarkBeacon_InterruptedMoved>黑暗灯塔中断：施法者离开了锚点。</VPEMYX_Message_DarkBeacon_InterruptedMoved>
+  <VPEMYX_Message_DarkBeacon_InterruptedDowned>黑暗灯塔中断：施法者倒地，裂隙失稳。</VPEMYX_Message_DarkBeacon_InterruptedDowned>
+  <VPEMYX_Message_DarkBeacon_NoEntitiesAvailable>黑暗灯塔：当前没有可用实体可从裂隙涌出。</VPEMYX_Message_DarkBeacon_NoEntitiesAvailable>
+
+  <VPEMYX_Message_MindSiphon_InvalidTarget>目标必须是倒地且存活的敌方人形生物。</VPEMYX_Message_MindSiphon_InvalidTarget>
+  <VPEMYX_Message_EngulfingUnlight_NoNoctolDef>未找到夜魇 PawnKindDef：{0}</VPEMYX_Message_EngulfingUnlight_NoNoctolDef>
+  <VPEMYX_Message_GlobalLobotomy_Affected>全域脑裂影响了 {0} 个目标。</VPEMYX_Message_GlobalLobotomy_Affected>
+
+  <VPEMYX_Message_FleshMolding_NotEnoughMaterials>血肉熔铸至少需要 {0} 份素材，当前为 {1}。</VPEMYX_Message_FleshMolding_NotEnoughMaterials>
+  <VPEMYX_Message_FleshMolding_NoResultKind>血肉熔铸失败：未配置结果 PawnKind。</VPEMYX_Message_FleshMolding_NoResultKind>
+  <VPEMYX_Message_FleshMolding_GenerationFailed>血肉熔铸失败：实体生成失败。</VPEMYX_Message_FleshMolding_GenerationFailed>
+
+  <VPEMYX_Message_PsychicScream_Result>绝望哀嚎命中 {0} 个敌对目标（范围内敌人：{1}，无心情系统：{2}）。</VPEMYX_Message_PsychicScream_Result>
+  <VPEMYX_Message_CorpseThreads_FrenzyUnlocked>已解锁血肉狂热（{0}/{1}）。</VPEMYX_Message_CorpseThreads_FrenzyUnlocked>
+</LanguageData>

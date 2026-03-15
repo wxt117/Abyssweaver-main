@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="VPEMYX_BaseAberrationKind" Abstract="True">
+    <defaultFactionDef>Entities</defaultFactionDef>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <meleeAttackInfectionPathways>
+      <li>EntityAttacked</li>
+    </meleeAttackInfectionPathways>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VPEMYX_BaseAberrationKind">
+    <defName>VPEMYX_GraftedAberration</defName>
+    <label>grafted aberration</label>
+    <race>Gorehulk</race>
+    <combatPower>120</combatPower>
+    <abilities>
+      <li>SpineLaunch_Gorehulk</li>
+    </abilities>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/VPEMYX/GraftedAberration/GraftedAberration</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(1.0, 2.35)</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VPEMYX_BaseAberrationKind">
+    <defName>VPEMYX_WailingFleshMound</defName>
+    <label>wailing flesh-mound</label>
+    <race>Devourer</race>
+    <combatPower>260</combatPower>
+    <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
+    <abilities>
+      <li>ConsumeLeap_Devourer</li>
+    </abilities>
+    <startingHediffs>
+      <li>
+        <def>VPEMYX_FleshMoldingTier2</def>
+      </li>
+    </startingHediffs>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/VPEMYX/WailingFleshMound/WailingFleshMound</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(5.7, 4.4)</drawSize>
+        </bodyGraphicData>
+        <swimmingGraphicData>
+          <texPath>Things/Pawn/VPEMYX/WailingFleshMound/WailingFleshMound</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(5.7, 4.4)</drawSize>
+        </swimmingGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VPEMYX_BaseAberrationKind">
+    <defName>VPEMYX_LordOfLegion</defName>
+    <label>lord of legion</label>
+    <race>Devourer</race>
+    <combatPower>420</combatPower>
+    <startingHediffs>
+      <li>
+        <def>VPEMYX_FleshMoldingTier3</def>
+      </li>
+    </startingHediffs>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/VPEMYX/LordOfLegion/LordOfLegion</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(10.8, 5.8)</drawSize>
+        </bodyGraphicData>
+        <swimmingGraphicData>
+          <texPath>Things/Pawn/VPEMYX/LordOfLegion/LordOfLegion</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(10.8, 5.8)</drawSize>
+        </swimmingGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VPEMYX_BaseAberrationKind">
+    <defName>VPEMYX_AbyssalAtrocity</defName>
+    <label>abyssal atrocity</label>
+    <race>Gorehulk</race>
+    <combatPower>2000</combatPower>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <startingHediffs>
+      <li>
+        <def>VPEMYX_AbyssalAtrocityCore</def>
+      </li>
+      <li>
+        <def>Regeneration</def>
+        <severity>2</severity>
+      </li>
+    </startingHediffs>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/VPEMYX/AbyssalAtrocity/AbyssalAtrocity</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(1.8, 3.7)</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

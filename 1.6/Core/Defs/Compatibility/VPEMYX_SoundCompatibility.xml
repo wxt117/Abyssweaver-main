@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Compatibility alias for older mods that still reference this legacy defName. -->
+  <SoundDef>
+    <defName>Pawn_Melee_Punch_HitBuilding</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Impact/Ground</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>19.56522~31.52174</volumeRange>
+        <pitchRange>0.8516304~1.190761</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VanillaPsycastsExpanded.PsycasterPathDef>
+    <defName>VPEMYX_Abyssweaver</defName>
+    <label>渊织者</label>
+    <description>Abyssweaver. Twist aberrant flesh, heal through mutation, and tear open rifts for anomaly entities.</description>
+    <background>UI/Backgrounds/NecropathPath</background>
+    <altBackground>UI/AlternativeBackgrounds/PathBG_Necropath</altBackground>
+    <tab>Psycasts</tab>
+    <tooltip>The forbidden art of the Abyssweaver: rewrite flesh and open rifts to summon anomaly entities.</tooltip>
+  </VanillaPsycastsExpanded.PsycasterPathDef>
+</Defs>
+

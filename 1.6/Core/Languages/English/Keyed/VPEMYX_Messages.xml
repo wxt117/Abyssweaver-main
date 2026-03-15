@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VPEMYX_Message_VoidAscension_UndraftedOnly>Void Ascension can only be cast while undrafted.</VPEMYX_Message_VoidAscension_UndraftedOnly>
+  <VPEMYX_Message_VoidAscension_AlreadyCompleted>This pawn has already completed Void Ascension.</VPEMYX_Message_VoidAscension_AlreadyCompleted>
+  <VPEMYX_Message_VoidAscension_AlreadyInProgress>Void Ascension is already in progress.</VPEMYX_Message_VoidAscension_AlreadyInProgress>
+  <VPEMYX_Message_VoidAscension_NoAssault>The void stirs, but no entity assault could be formed on this map.</VPEMYX_Message_VoidAscension_NoAssault>
+  <VPEMYX_Message_VoidAscension_Began>Void Ascension has begun. The caster collapses into a prolonged metamorphic coma.</VPEMYX_Message_VoidAscension_Began>
+  <VPEMYX_Message_VoidAscension_Completed>{0} has completed Void Ascension and become a Void Avatar.</VPEMYX_Message_VoidAscension_Completed>
+
+  <VPEMYX_Message_AbyssalBirth_MissingDefs>Abyssal Birth failed: missing sacrifice or result pawn definition.</VPEMYX_Message_AbyssalBirth_MissingDefs>
+  <VPEMYX_Message_AbyssalBirth_NotEnoughSacrifices>Abyssal Birth requires {0} allied Lord of Legion sacrifices, but only {1} were found.</VPEMYX_Message_AbyssalBirth_NotEnoughSacrifices>
+  <VPEMYX_Message_AbyssalBirth_SpawnFailed>Abyssal Birth failed: could not spawn Abyssal Atrocity.</VPEMYX_Message_AbyssalBirth_SpawnFailed>
+  <VPEMYX_Message_AbyssalBirth_Success>The sacrifice is complete. The Abyssal Atrocity enters reality.</VPEMYX_Message_AbyssalBirth_Success>
+
+  <VPEMYX_Message_DomainOfSilence_MissingChannel>Domain of Silence is missing its channel hediff definition.</VPEMYX_Message_DomainOfSilence_MissingChannel>
+  <VPEMYX_Message_DomainOfSilence_Cancelled>Domain of Silence channel cancelled manually.</VPEMYX_Message_DomainOfSilence_Cancelled>
+  <VPEMYX_Message_DomainOfSilence_Started>Domain of Silence unfolded. You must channel in place while technological firepower is suppressed.</VPEMYX_Message_DomainOfSilence_Started>
+  <VPEMYX_Message_DomainOfSilence_MovedCollapse>Domain of Silence collapses because the caster moved.</VPEMYX_Message_DomainOfSilence_MovedCollapse>
+  <VPEMYX_Message_DomainOfSilence_DownedInterrupted>Domain of Silence was interrupted because the caster was downed.</VPEMYX_Message_DomainOfSilence_DownedInterrupted>
+  <VPEMYX_Message_DomainOfSilence_NoEntropyCircuit>The caster can no longer maintain the entropy circuit. Domain of Silence ends.</VPEMYX_Message_DomainOfSilence_NoEntropyCircuit>
+  <VPEMYX_Message_DomainOfSilence_EntropyOver80>Entropy exceeded 80%. Domain of Silence collapses automatically.</VPEMYX_Message_DomainOfSilence_EntropyOver80>
+  <VPEMYX_Message_DomainOfSilence_EntropyOverload>Entropy circuit overload forced Domain of Silence to terminate.</VPEMYX_Message_DomainOfSilence_EntropyOverload>
+
+  <VPEMYX_Message_DarkBeacon_MissingChannel>Dark Beacon is missing its channel hediff definition.</VPEMYX_Message_DarkBeacon_MissingChannel>
+  <VPEMYX_Message_DarkBeacon_Closed>Dark Beacon closed: the rift is sealed and summoned entities are banished.</VPEMYX_Message_DarkBeacon_Closed>
+  <VPEMYX_Message_DarkBeacon_Opened>Dark Beacon opened: remain in place to channel while the void tide surges in.</VPEMYX_Message_DarkBeacon_Opened>
+  <VPEMYX_Message_DarkBeacon_InterruptedMoved>Dark Beacon interrupted: the caster left the anchor point.</VPEMYX_Message_DarkBeacon_InterruptedMoved>
+  <VPEMYX_Message_DarkBeacon_InterruptedDowned>Dark Beacon interrupted: the caster was downed and the rift destabilized.</VPEMYX_Message_DarkBeacon_InterruptedDowned>
+  <VPEMYX_Message_DarkBeacon_NoEntitiesAvailable>Dark Beacon: no valid entities are currently available to emerge from the rift.</VPEMYX_Message_DarkBeacon_NoEntitiesAvailable>
+
+  <VPEMYX_Message_MindSiphon_InvalidTarget>Target must be a living, downed, hostile humanlike pawn.</VPEMYX_Message_MindSiphon_InvalidTarget>
+  <VPEMYX_Message_EngulfingUnlight_NoNoctolDef>No Noctol PawnKindDef found: {0}</VPEMYX_Message_EngulfingUnlight_NoNoctolDef>
+  <VPEMYX_Message_GlobalLobotomy_Affected>Global Lobotomy affected {0} targets.</VPEMYX_Message_GlobalLobotomy_Affected>
+
+  <VPEMYX_Message_FleshMolding_NotEnoughMaterials>Flesh Molding needs at least {0} materials. Current: {1}.</VPEMYX_Message_FleshMolding_NotEnoughMaterials>
+  <VPEMYX_Message_FleshMolding_NoResultKind>Flesh Molding failed: no result pawnkind configured.</VPEMYX_Message_FleshMolding_NoResultKind>
+  <VPEMYX_Message_FleshMolding_GenerationFailed>Flesh Molding failed: pawn generation failed.</VPEMYX_Message_FleshMolding_GenerationFailed>
+
+  <VPEMYX_Message_PsychicScream_Result>Scream of Despair affected {0} hostiles (hostiles in range: {1}, no mood: {2}).</VPEMYX_Message_PsychicScream_Result>
+  <VPEMYX_Message_CorpseThreads_FrenzyUnlocked>Flesh Frenzy unlocked ({0}/{1}).</VPEMYX_Message_CorpseThreads_FrenzyUnlocked>
+</LanguageData>

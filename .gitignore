@@ -1,0 +1,15 @@
+# Build/cache
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Logs/temp
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# Optional local debug symbols
+*.pdb
